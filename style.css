@@ -1,0 +1,252 @@
+/* Básico, vale pra quase tudo */
+* {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Cabeçalho */
+
+header {
+    width: 100%;
+    height: 9.25%;
+    position: fixed;
+    background-color: #141414;
+    z-index: 5;
+}
+
+.menu {
+    font-size: calc(0.4464285714285714vw + 14.571428571428571px);
+    font-weight: 500;
+}
+
+header a { /* Links */
+    text-decoration: none;
+    padding-right: 2.50%;
+    color: white;
+
+}
+
+header a:hover {
+    color: #582ba8;
+}
+
+#cabeçalho { /*posiciona menu imagem*/
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    left: 4%;
+    top: 23%;
+    float: left;
+}
+
+#menu { /* posiciona e colore menu */
+    position: relative;
+    top: 30%;
+    float: right;
+    width: 30%;   
+}    
+
+.a {
+    font-size: calc(1vw + 0.9px);
+    font-size: 30px;
+}
+
+/* Imagem */
+
+#inicio {
+    background-image: url("t.jpg");
+    width: 100%;
+    height: 100vh;
+    background-color: #050505;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    padding-top: 200pt;
+    padding-left: 70pt;
+    color: white;
+    font-size: 20pt;
+    font-style: verdana;
+}
+
+/* Sobre mim */
+
+#sobre {
+    background-image: url("f.jpg");
+    background-color: #141414;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.conteudo {
+    padding: 15%;
+}
+
+#sobre img {
+    border-radius: 50%;
+    position: absolute;
+    top: 120%;
+    right: 20%;
+}
+
+#sobre h2 {
+    padding-bottom: 3%;
+    color: white;
+    text-shadow: black;
+}
+
+#sobre p {
+    padding-right: 60%;
+    color: white;
+    text-shadow: black;
+}
+
+/* Formação */
+
+#formacao {
+    background-color: #1d1c1c;
+    height: 530px;
+}
+
+#formacao h2 {
+    padding: 3%;
+    text-align: center;
+    color: white;
+    text-shadow: black;
+}
+
+#formacao img {
+    border-radius: 50%;
+    margin-left: 3%;   
+    margin-right: 3%; 
+    align-items: center;
+}
+
+#formacao img:hover {
+    opacity: 0.19;
+}
+
+/* Texto formação */
+
+.all p {
+    display: inline-block;
+    color: white;
+    text-shadow: black;
+    width: 22%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+/* Contato */
+
+#contato {
+    background-image: url("f.jpg");
+    background-color: #141414;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.contato-conteudo {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contato-info {
+    padding-left: 25%;
+    padding-right: 25%;
+    color: white;
+}
+
+#contato h2 {
+    text-align: center;
+    padding-bottom: 5%;
+    color: white;
+    text-shadow: black;
+}
+
+#contato h3 {
+    color: white;
+    text-shadow: black;
+}
+
+#contato p {
+    padding-bottom: 5%;
+    text-shadow: black;
+}
+
+/*Rodapé*/
+
+footer {
+    background-color: #141414;
+    height: 60px;
+}
+
+.letra {
+    color: white;
+    padding-top: 20pt;
+    text-align: center;
+}
+
+/*Back to top*/
+
+#backtopo {
+    display: scroll;
+    position: fixed;
+    top: 80%;
+    right: 10px;
+}
+
+.seta {
+    max-height: 35px;
+}
+
+/* Fontes */
+
+.light {
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.black {
+    font-weight: 900;
+}
+
+.d {
+    font-size: calc(0.4464285714285714vw + 8.571428571428571px);
+}
+
+.a {
+    font-size: calc(0.4464285714285714vw + 14.571428571428571px);
+}
+
+.d {
+    font-size: calc(0.4464285714285714vw + 14.571428571428571px);
+}
+
+.b {
+    font-size: calc(1.5625vw + 48px);
+}
+.e {
+    font-size: 33px;
+}
+
+.f {
+    font-size: 30px;
+}
+
+.g {
+    font-size: 16px;
+    text-align: center;
+} 
